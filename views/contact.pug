@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Salman I-Educate Center</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="navlist">
+            <li><a href="/home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+        </ul>
+        <div class="rigthNav">
+            <input type="search" name="search" class="search">
+            <button class="btn">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <section class="formSec">
+        <div class="fn">
+
+            <form action="/contact" method="POST" cla="contact">
+            <input type="text"   class="fb" name="name" id="name" placeholder="Enter Your Name ">
+            <input type="age"  class="fb"  name="age" id="age" placeholder="Enter Your Age ">
+            <input type="email"  class="fb"  name="email" id="email" placeholder="Enter Your Email">
+            <input type="address"  class="fb"  name="address" id="address" placeholder="Enter Your Address ">
+            <input type="Position"   class="fb" name="Position" id="Position" placeholder="Enter Your Positoin">
+            <button class="btn fb sb" onclick="show()">Submit</button>
+            <!-- <button type="button" class="btn btn-primary fb sb">Submit</button> -->
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footpara">  Copyrigth &copy; 2027 - Salmansheriff706@gmail.com All rights reserved</p>
+    </footer>
+</body>
+</html>
